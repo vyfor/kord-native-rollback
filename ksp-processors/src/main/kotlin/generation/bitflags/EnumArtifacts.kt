@@ -5,7 +5,7 @@ import com.squareup.kotlinpoet.KModifier.*
 import com.squareup.kotlinpoet.ParameterizedTypeName.Companion.parameterizedBy
 import com.squareup.kotlinpoet.jvm.jvmField
 import com.squareup.kotlinpoet.jvm.jvmStatic
-import dev.kord.ksp.*
+import dev.kord.codegen.kotlinpoet.*
 import dev.kord.ksp.generation.GenerationEntity.BitFlags
 import dev.kord.ksp.generation.shared.GenerationContext
 import dev.kord.ksp.generation.shared.nameWithSuppressedDeprecation

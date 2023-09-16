@@ -5,7 +5,7 @@ import com.squareup.kotlinpoet.DelicateKotlinPoetApi
 import com.squareup.kotlinpoet.KModifier.*
 import com.squareup.kotlinpoet.NOTHING
 import com.squareup.kotlinpoet.ksp.addOriginatingKSFile
-import dev.kord.ksp.*
+import dev.kord.codegen.kotlinpoet.*
 import dev.kord.ksp.generation.GenerationEntity.KordEnum
 import dev.kord.ksp.generation.shared.*
 import kotlinx.serialization.Serializable
