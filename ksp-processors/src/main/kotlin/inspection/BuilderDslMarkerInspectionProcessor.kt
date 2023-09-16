@@ -4,8 +4,8 @@ import com.google.devtools.ksp.getAllSuperTypes
 import com.google.devtools.ksp.processing.*
 import com.google.devtools.ksp.symbol.KSAnnotated
 import com.google.devtools.ksp.symbol.Modifier
+import dev.kord.codegen.ksp.isOfType
 import dev.kord.ksp.getNewClasses
-import dev.kord.ksp.isOfType
 
 class BuilderDslMarkerInspectionProcessorProvider : SymbolProcessorProvider {
     override fun create(environment: SymbolProcessorEnvironment): SymbolProcessor =

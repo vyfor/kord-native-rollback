@@ -3,8 +3,8 @@ package dev.kord.ksp.inspection
 import com.google.devtools.ksp.findActualType
 import com.google.devtools.ksp.processing.*
 import com.google.devtools.ksp.symbol.*
-import dev.kord.ksp.getSymbolsWithAnnotation
-import dev.kord.ksp.isClassifierReference
+import dev.kord.codegen.ksp.getSymbolsWithAnnotation
+import dev.kord.codegen.ksp.isClassifierReference
 import kotlinx.serialization.Serializable
 
 /** [SymbolProcessorProvider] for [OptionalDefaultInspectionProcessor]. */
