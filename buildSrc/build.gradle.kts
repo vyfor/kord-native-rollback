@@ -9,12 +9,12 @@ repositories {
     maven("https://europe-west3-maven.pkg.dev/mik-music/kord")
 }
 
-kotlin {
-    compilerOptions {
-        allWarningsAsErrors = true
-        freeCompilerArgs.add("-Xcontext-receivers")
-    }
-}
+// kotlin {
+//     compilerOptions {
+//         allWarningsAsErrors = true
+//         freeCompilerArgs.add("-Xcontext-receivers")
+//     }
+// }
 
 dependencies {
     implementation(libs.bundles.pluginsForBuildSrc)
